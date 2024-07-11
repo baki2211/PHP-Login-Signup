@@ -3,5 +3,13 @@
 {% block title %}Home{% endblock %}
 
 {% block body %}
+    {% include "components/contacts/contacts.html.twig" %}
+    <div class="hero p-3">
+        {% include "components/navbar/navbar.html.twig" %}
+        {% include "components/hero/hero.html.twig" %}
+        {% include "components/hero/grid.html.twig" %}
+    </div>
+   
 
+<script src="https://kit.fontawesome.com/f48e46a5a4.js" crossorigin="anonymous"></script>
 {% endblock %}

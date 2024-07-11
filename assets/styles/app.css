@@ -1,3 +1,31 @@
 body {
     background-color: rgb(203, 216, 221);
+    .hero{
+        background-image: url('https://cdn.pixabay.com/photo/2017/05/31/11/17/office-2360063_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(59, 63, 88);
+        .heroContent{
+            margin: 3rem 0;
+        }
+    }
+    .hero p, .hero h1{
+        color: white;
+    }
+}
+/* Navbar component */
+.navBar{
+    /* border-radius: 3%; */
+
+    .logo img{
+        width: 150px;
+        max-height: 50px;
+        height: max-content;
+    }
+}
+/* Contacts component */
+.contact{
+    background-color: rgb(41, 41, 122);
+    color: rgb(253, 235, 211);
 }
