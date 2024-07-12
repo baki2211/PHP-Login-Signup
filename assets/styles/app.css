@@ -11,7 +11,7 @@ body {
             margin: 5rem 0;
         }
     }
-    .hero p, .hero h1, .newCard p{
+    .hero p, .newCard p, .whiteH{
         color: white;
     }
     .coloredText{
@@ -20,6 +20,7 @@ body {
     .spacing {
         margin: 5rem 0;
     }
+   
 }
 /* Navbar component */
 .navBar{
@@ -46,4 +47,10 @@ body {
     width: 18rem; 
     background-color: rgb(27, 27, 184);
     padding: 0;
+}
+/* Footer */
+.footer{
+    background-color: rgb(18, 18, 80);
+    color: white;
+    text-decoration: none;
 }
